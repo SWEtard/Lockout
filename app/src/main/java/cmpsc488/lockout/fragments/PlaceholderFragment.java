@@ -11,7 +11,7 @@ import cmpsc488.lockout.R;
  /**
  * A placeholder fragment containing a simple view.
  */
-public class PlaceholderFragment extends Fragment {
+public class PlaceholderFragment extends BaseFragment {
     /**
      * The fragment argument representing the section number for this
      * fragment.

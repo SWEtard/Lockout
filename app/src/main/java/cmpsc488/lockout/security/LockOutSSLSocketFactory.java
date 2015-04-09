@@ -1,4 +1,4 @@
-package cmpsc488.lockout.fragments;
+package cmpsc488.lockout.security;
 
 import org.apache.http.conn.ssl.SSLSocketFactory;
 

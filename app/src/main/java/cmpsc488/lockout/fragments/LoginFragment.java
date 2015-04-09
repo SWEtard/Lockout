@@ -1,8 +1,6 @@
 package cmpsc488.lockout.fragments;
 
-import android.app.Fragment;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,13 +14,14 @@ import org.json.JSONObject;
 
 import cmpsc488.lockout.R;
 import cmpsc488.lockout.ServerRequest;
+import cmpsc488.lockout.security.SecureServerRequest;
 
 
 /**
  * Created by Gal on 4/7/2015.
  */
 
-public class LoginFragment extends android.support.v4.app.Fragment {
+public class LoginFragment extends BaseFragment {
     String server = "http://146.186.64.169:6917/bin";
     Boolean login = false;
     private EditText username = null;
